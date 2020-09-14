@@ -17,15 +17,10 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:mapbox_cameraTargetLat="-36.84"
-            mapbox:mapbox_cameraTargetLng="174.76"
-            mapbox:mapbox_cameraZoom="10"
-            mapbox:mapbox_cameraBearing="34.33"
-            mapbox:mapbox_cameraTilt="50.25"
-            mapbox:mapbox_cameraZoomMax="12.41"
-            mapbox:mapbox_cameraZoomMin="6"
+            mapbox:mapbox_cameraTargetLat="35.690921"
+            mapbox:mapbox_cameraTargetLng="139.70025"
+            mapbox:mapbox_cameraZoom="12"
             mapbox:mapbox_uiRotateGestures="false"/>
-            />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
