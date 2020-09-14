@@ -17,8 +17,7 @@ class MainActivity : AppCompatActivity() {
         Mapbox.getInstance(this, getString(R.string.mapbox_access_token))
         binding.mapView.onCreate(savedInstanceState)
         binding.mapView.getMapAsync { mapboxMap ->
-            mapboxMap.setStyle(Style.MAPBOX_STREETS) {
-            }
+            mapboxMap.setStyle(Style.Builder().fromUri("asset://jp_map.json"))
         }
     }
 
